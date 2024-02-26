@@ -1,0 +1,128 @@
+
+.box{
+     height: 100vh;
+     width: 100%;
+     display: flex;
+ }
+ .box-Left{
+     height: 100%;
+     width: 50%;
+     background-color: #3f424c;
+     position: relative;
+ }
+ .box-Right{
+     height: 100%;
+     width: 50%;
+     background-color: #f6f6f6;
+     position: relative;
+ }
+ .img{
+     height: 8%;
+     padding: 10px;
+ }
+ .img2{
+     height: 470px;
+     width: 470px;
+ }
+ .image{
+     border: 1px solid #3f424c;
+     position: absolute;
+     left: 20%;
+     top: 10%;
+ }
+ .image-text{
+       text-align: center;
+       font-size: 35px;
+       color: white;
+ }
+ .image-text2{
+     text-align: center;
+     color: #74798c;
+     font-size: 25px;
+     font-style: italic;
+ }
+ .account{
+     float: right;
+     padding: 20px;
+ }
+ .btn{
+     padding: 6px 24px;
+     border: 1px solid #2a2d36;
+     background-color: white;
+     border-radius: 12px;
+     margin: 10px;
+ 
+ }
+ .form{
+ 
+     position: absolute;
+     height: 70%;
+     width: 70%;
+     top: 20%;
+     left: 15%;
+     text-align: center;
+ }
+ .welcome{
+    color: #3e3e3e; 
+    font-size: 35px;
+ }
+ .signup{
+     font-size: 15px;
+     color: #3e3e3e;
+     margin: -12px;
+     margin-bottom: 30px;
+ 
+ }
+ .inputbox{
+     padding: 18px 22px;
+     width: 50%;
+     margin-bottom: 20px;
+     background-color: white;
+     border: 1px solid rgb(216, 210, 210);
+     border-radius: 25px;
+ }
+ .inputbox::placeholder{
+     font-family: sans-serif;
+     color: #3e3e3e;
+     text-align: center;
+     font-size: 16px;
+ }
+ .submit{
+     background-color: #2bc5b4;
+     width: 60%;
+     color: white;
+     font-size: 18px;
+ }
+ .png{
+     width: 60%;
+     margin: auto;
+     text-align: left;
+     font-style: italic;
+     font-size: 14px;
+ }
+ .continue{
+     font-size: 13px;
+     color: #3e3e3e;
+     margin: 20px;
+ }
+ .last{
+     display: flex;
+     justify-content: center;
+ }
+ .email{
+     background-color: #2a2d36;
+     border: 1px solid #2a2d36;
+     padding: 15px 35px;
+     color: whitesmoke;
+     border-radius: 20px;
+     font-size: 16px;
+ }
+ .facebook{
+     background-color: #3d5798;
+     border: 1px solid #3d5798;
+     padding: 15px 45px;
+     color: whitesmoke;
+     border-radius: 20px;
+     font-size: 16px;
+     margin-left: 10px ;
+ }

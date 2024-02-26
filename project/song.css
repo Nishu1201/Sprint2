@@ -1,0 +1,16 @@
+
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+audio::-webkit-media-controls {
+    background-color: #333;
+    color: white;
+}
+
+
+audio::-webkit-media-controls-volume-slider {
+    width: 70px;
+}
